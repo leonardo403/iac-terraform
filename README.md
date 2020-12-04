@@ -3,6 +3,13 @@
 This step-by-step to the [Provision an EKS Cluster learn guide](https://learn.hashicorp.com/terraform/kubernetes/provision-eks-cluster), containing
 Terraform configuration files to provision an EKS cluster on AWS.
 
+# Setup Terraform
+```shell
+wget https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_linux_amd64.zip
+unzip terraform_0.13.0_linux_amd64.zip
+mv terraform /bin/
+terraform
+```
 # Terraform - Provision an EKS Cluster
 
 Terraform configuration files to provision an EKS cluster on AWS.
